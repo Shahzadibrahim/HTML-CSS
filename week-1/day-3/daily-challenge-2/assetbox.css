@@ -1,0 +1,28 @@
+Flexbox container 
+.parent {
+   
+  }
+
+  .child-one {
+    background-color: #FF7100;
+    border: 1px solid: #000;
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+  }
+  
+  .child-two {
+    background-color: #FFB26D;
+    border: 1px solid: #000;
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+  }
+  
+  .child-three {
+    background-color: #A84A00;
+    border: 1px solid: #000;
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+  }
