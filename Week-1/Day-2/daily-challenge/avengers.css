@@ -1,0 +1,35 @@
+nav {
+  background-color: white;
+  overflow: hidden;
+}
+body {
+	background-color: #333;
+	text-align: justify;
+}
+.container {
+  position: relative;
+  text-align: left;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 2px;
+  color: darkred;
+  font-family: monospace;
+  font-size: 15px;
+  }
+p {
+    display: block;
+    text-align: justify;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 950px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: serif;
+}
+footer {
+  display: block;
+}
