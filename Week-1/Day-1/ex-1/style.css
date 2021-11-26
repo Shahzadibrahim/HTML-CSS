@@ -1,0 +1,20 @@
+h1 { color: darkblue;
+	font-family: cursive;
+	background-color: gray;
+	width: 900px;
+	text-align: left;
+	padding: 20px;
+	}
+div { font-family: serif;
+}
+p { color: blue;
+	text-decoration-style: inherit;
+	letter-spacing: 2px;
+	line-height: 0.5;
+	 }
+ div1 { text-align: left;
+ 		font-family: serif;
+ 	  }
+  body { background-color: whitesmoke;
+  		margin-right: 590px;
+  		text-align: justify; }

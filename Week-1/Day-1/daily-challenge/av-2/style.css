@@ -1,0 +1,57 @@
+body, html {
+  height: 100%;
+}
+body{
+  margin: 0;
+}
+.full-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("Captain-Marvel-Wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 1px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.poster-content{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 16px;
+  box-sizing: border-box;
+  margin:auto;
+  width: 650px;
+}
+.poster-content header{
+  text-align: center;
+}
+.poster-content header h1 {
+  color: #fff;
+  font-size: 48px;
+  margin: 16px;
+}
+.poster-content header p {
+  color: #fff;
+  font-size: 15px;
+  margin: 16px;
+}
+footer {
+  text-align: left;
+  display: block;
+  background-color: purple;
+  background-size: cover;
+  color: white;
+
+@media (min-width:800px){
+  .full-bg {
+    background-color: #000000;
+  }
+}
+@media (max-width:768px){
+  .poster-content{
+    width:100%;
+  }
+  footer {
+    background-color: green;
+  }
+}
